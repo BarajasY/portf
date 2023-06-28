@@ -1,0 +1,24 @@
+.homeContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+/*     background: linear-gradient(90deg, rgba(250, 255, 254, 1) 0%, rgba(206, 212, 221, 1) 50%, rgba(160, 160, 187, 1) 100%); */
+    background: radial-gradient(circle at 14% 16%, #FAFFFE 0%, #CED4DD 18%, #A0A0BB 100%);
+}
+
+.homeNames {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.homeNames h1 {
+    font-size: 50px;
+    color: var(--fullgray);
+}
+
+.homeNames p {
+    color: var(--black);
+}

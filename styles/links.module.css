@@ -1,0 +1,15 @@
+.linksContainer {
+    width: 10%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.linksContainer a {
+    font-size: 30px;
+    color: var(--fullgray);
+    margin: 10px 0px;
+}

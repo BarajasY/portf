@@ -1,0 +1,13 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+}
+
+:root {
+    --white:#fafffe;
+    --lowgray:#ced4dd;
+    --midgray:#a0a0bb;
+    --fullgray: #606071;
+    --black: #000000;
+}
