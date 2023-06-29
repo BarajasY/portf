@@ -1,0 +1,44 @@
+.stackContainer {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.stackContainer h1 {
+    color: var(--fullgray);
+}
+
+.stackDivider {
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+
+.stack {
+    width: 15%;
+    padding: 30px;
+    border: 2px solid var(--midgray);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stack p {
+    font-size: 30px;
+}
+
+.stack section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.stackIcon {
+    font-size: 35px;
+    margin: 10px;
+}
+
+.stackIcon:hover {
+    color: var(--midgray);
+}

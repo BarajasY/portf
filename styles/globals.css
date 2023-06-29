@@ -2,6 +2,11 @@
     padding: 0px;
     margin: 0px;
     outline: none;
+    transition: .2s;
+}
+
+body {
+    background: radial-gradient(circle at 14% 16%, #FAFFFE 0%, #CED4DD 18%, #A0A0BB 100%);
 }
 
 :root {
@@ -10,4 +15,12 @@
     --midgray:#a0a0bb;
     --fullgray: #606071;
     --black: #000000;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-slider-thumb {
+    color: var(--black);
 }
