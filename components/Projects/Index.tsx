@@ -11,6 +11,6 @@ import image6 from "@/public/image6.webp"
 import image7 from "@/public/image7.webp"
 
 
-export const projects = [<SAS2UE />, <ShutIt />, <Workaholic />]
+export const projects = [<SAS2UE key={1}/>, <ShutIt key={2}/>, <Workaholic key={3}/>]
 
 export const SASImages = [image1, image2, image3, image4, image5, image6, image7];
