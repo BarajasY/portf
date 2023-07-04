@@ -1,0 +1,88 @@
+.emailContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailContainer h1 {
+    color: var(--darkblue);
+}
+
+.emailContainer h1 span {
+    color: var(--red);
+}
+
+.emailForm {
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.emailContactInfo {
+    display: flex;
+}
+
+.emailContactInfo div {
+    margin: 10px;
+}
+.emailName h1, .emailContact h1{
+    color: var(--darkblue);
+    font-size: 20px;
+}
+
+.emailName input, .emailContact input {
+    padding: 10px;
+    width: 350px;
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--darkblue);
+    background: none;
+    border: 0px;
+    border-bottom: 2px solid black;
+}
+
+.emailMessage {
+    padding: 10px;
+}
+
+.emailMessage h1 {
+    font-size: 20px;
+}
+
+.emailMessage textarea{
+    width: 100%;
+    padding: 10px;
+    background: none;
+    font-weight: 800;
+    font-size: 20px;
+    border: 2px solid var(--darkblue);
+    border-radius: 5px;
+}
+
+.emailContainer button {
+    padding: 10px;
+    color: var(--darkblue);
+    background: none;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.emailContainer button:hover {
+    background: var(--darkblue);
+    color: var(--white);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 991px) {
+    .emailContactInfo {
+        flex-direction: column;
+    }
+
+    .emailName input, .emailContact input{
+        width: 100%;
+    }
+}

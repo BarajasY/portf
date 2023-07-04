@@ -2,6 +2,9 @@
     width: 100%;
     height: 100vh;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .stackContainer h1 {
@@ -41,4 +44,17 @@
 
 .stackIcon:hover {
     color: var(--midgray);
+}
+
+@media only screen and (max-width: 991px) {
+    .stackDivider {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stack {
+        width: 50%;
+        margin: 10px 0px;
+        height: 200px;
+    }
 }

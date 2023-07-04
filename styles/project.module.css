@@ -1,0 +1,146 @@
+.projectContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+}
+
+.projectDescription, .projectImage {
+    height: 100%;
+    width: 50%;
+}
+
+.projectDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projectDescription p span{
+    color: var(--red);
+}
+
+#stack {
+    color: var(--green);
+}
+
+.projectImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    font-size: 30px;
+    width: 50px;
+}
+
+.arrow:hover{
+    background: var(--fullgray);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.image {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+#ShutItImage {
+    animation: 7s float infinite alternate;
+}
+
+#SasImage {
+    width: 500px;
+    height: 270px;
+}
+
+.stackIcons {
+    display: flex;
+    flex-direction: column;
+}
+
+.stackIcons section {
+    display: flex;
+    align-items: center;
+}
+
+.stackIcons section p {
+    font-size: 20px;
+    color: var(--red);
+}
+
+.icon {
+    color: var(--darkblue);
+    font-size: 25px;
+    margin: 0px 10px;
+}
+
+.projectLinks a{
+    margin: 10px;
+    color: var(--red);
+}
+
+.projectLinks a:hover {
+    color: var(--darkblue);
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(-40px);
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .wrapper {
+        height: 90%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projectDescription {
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .projectDescription h1 {
+        font-size: 36px;
+    }
+
+    .projectDescription p {
+        font-size: 26px;
+    }
+
+    .projectDescription p:nth-child(2) {
+        margin-bottom: 10px;
+    }
+
+    .stackIcons section {
+        flex-direction: column;
+        margin: 10px 0px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .image {
+      width: 400px !important;
+      height: 300px !important;
+    }
+}

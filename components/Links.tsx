@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import style from "../styles/links.module.css";
 import {
@@ -6,22 +7,47 @@ import {
   AiFillTwitterSquare,
   AiFillFilePdf,
 } from "react-icons/ai";
+import { motion } from "framer-motion";
 
 const Links = () => {
   return (
     <div className={style.linksContainer}>
-      <a href="https://github.com/BarajasY" target="_blank">
+      <motion.a
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ once: true }}
+        href="https://github.com/BarajasY"
+        target="_blank"
+      >
         <AiFillGithub />
-      </a>
-      <a href="https://www.linkedin.com/in/yahirmb/" target="_blank">
+      </motion.a>
+      <motion.a
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ once: true }}
+        href="https://www.linkedin.com/in/yahirmb/"
+        target="_blank"
+      >
         <AiFillLinkedin />
-      </a>
-      <a href="https://twitter.com/MrBecauseofyes" target="_blank">
+      </motion.a>
+      <motion.a
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ once: true }}
+        href="https://twitter.com/MrBecauseofyes"
+        target="_blank"
+      >
         <AiFillTwitterSquare />
-      </a>
-      <a href="/resume.pdf" download>
+      </motion.a>
+      <motion.a
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ once: true }}
+        href="/resume.pdf"
+        download
+      >
         <AiFillFilePdf />
-      </a>
+      </motion.a>
     </div>
   );
 };

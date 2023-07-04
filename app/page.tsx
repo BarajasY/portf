@@ -1,3 +1,4 @@
+import Email from '@/components/Email';
 import Home from '@/components/Home';
 import Links from '@/components/Links';
 import Projects from '@/components/Projects';
@@ -11,6 +12,7 @@ const page = () => {
       <Home />
       <Stack />
       <Projects />
+      <Email />
     </>
   )
 }

@@ -3,6 +3,7 @@
     margin: 0px;
     outline: none;
     transition: .2s;
+    text-decoration: none;
 }
 
 body {
@@ -15,6 +16,13 @@ body {
     --midgray:#a0a0bb;
     --fullgray: #606071;
     --black: #000000;
+    --red: #e05757;
+    --yellow: #e9c543;
+    --green: #4e9744;
+    --blue: #0760b6;
+    --darkmint: #79ab9c;
+    --cyan: #21b8a8;
+    --darkblue: #1f2959;
 }
 
 ::-webkit-scrollbar {
@@ -23,4 +31,8 @@ body {
 
 ::-webkit-slider-thumb {
     color: var(--black);
+}
+
+::-webkit-slider-runnable-track {
+    background: var(--fullgray);
 }

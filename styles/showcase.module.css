@@ -40,10 +40,21 @@
     background: var(--fullgray);
 }
 
-
 .circle1 {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-100%, -50%);
+    position: absolute;
+}
+
+.project {
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .projectContent {
+        width: 100%;
+    }
 }
