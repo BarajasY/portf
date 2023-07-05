@@ -43,7 +43,7 @@ const Links = () => {
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ once: true }}
-        href="/resume.pdf"
+        href="/Yahir Barajas SWE Resume.pdf"
         download
       >
         <AiFillFilePdf />
