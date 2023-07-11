@@ -48,7 +48,7 @@ const Discontinued = () => {
         <p>
           A <span>Rust</span>/<span>Solid.js</span>/<span>SurrealDB</span> Full-Stack web application featuring discontinued cars.
         </p>
-        <p>The Web server for this application was created using Rust's crate <span>Axum</span> (Would appear in the tech stack but doesn't yet have an icon)</p>
+        <p>The Web server for this application was created using Rust&apos;s crate <span>Axum</span> (Would appear in the tech stack but doesn&apos;t yet have an icon)</p>
         <p id={style.stack}>Tech Stack</p>
         <div className={style.stackIcons}>
           <section>
