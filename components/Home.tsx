@@ -1,5 +1,4 @@
 "use client"
-import React from 'react'
 import style from '../styles/home.module.css';
 import { motion } from 'framer-motion';
 

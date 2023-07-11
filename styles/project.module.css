@@ -30,6 +30,7 @@
 
 #stack {
     color: var(--green);
+    font-size: 23px;
 }
 
 .projectImage {
@@ -64,6 +65,12 @@
 #SasImage {
     width: 500px;
     height: 270px;
+}
+
+#DiscImage {
+    width: 550px;
+    height: 300px;
+    object-fit: cover;
 }
 
 .stackIcons {

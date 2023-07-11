@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import style from "@/styles/email.module.css";
 import emailjs from "@emailjs/browser";
 import { AnimatePresence, motion } from "framer-motion";

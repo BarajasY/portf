@@ -59,7 +59,7 @@
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 991px) {
     .stackContainer {
         height: 150vh;
     }

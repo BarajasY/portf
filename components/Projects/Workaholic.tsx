@@ -1,4 +1,3 @@
-import React from "react";
 import { FaJava } from "react-icons/fa";
 import {
   SiCss3,
