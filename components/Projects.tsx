@@ -7,16 +7,16 @@ import { projects } from "./Projects/Index";
 
 const Projects = () => {
   const [BackgroundColor, setBackgroundColor] = useState([
-    "#ced4dd",
-    "#87e2b3",
-    "#f7ebea",
-    "#fbf4f5",
+    "#FAFAFA",
+    "#F5F5F5",
+    "#EEEEEE",
+    "#E4E4E4",
   ]);
   const [CircleColor, setCircleColor] = useState([
-    "#ced4dd",
-    "#87e2b3",
-    "#f7ebea",
-    "#fbf4f5",
+    "#FAFAFA",
+    "#F5F5F5",
+    "#F0F0F0",
+    "#E4E4E4",
   ]);
   const [BlockArrows, setBlockArrows] = useState(false);
   const [circle, animate] = useAnimate();
@@ -107,12 +107,12 @@ const Projects = () => {
         transition={{ once: true }}
         className={style.projectContent}
         style={{ background: BackgroundColor[BackgroundCount] }}
-      >
+        >
         <div
           className={style.circle1}
           ref={circle}
           style={{ background: CircleColor[CircleCount] }}
-        ></div>
+          ></div>
         <div className={style.project} ref={project}>
           {projects[ProjectCount]}
         </div>

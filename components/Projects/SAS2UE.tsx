@@ -53,7 +53,7 @@ const SAS2UE = () => {
         <div className={style.projectDescription}>
           <h1>SAS2: Unreal Engine</h1>
           <p>
-            A SAS2 Flash Player remake in 3D using <span>Unreal Engine</span>.
+            An <span>Unreal Engine</span> 3D remake of the classic SAS2 Flash Player game.
           </p>
           <p id={style.stack}>Tech Stack</p>
           <div className={style.stackIcons}>

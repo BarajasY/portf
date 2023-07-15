@@ -70,7 +70,7 @@ const Discontinued = () => {
             src={discImages[ImagesCount]}
             alt="SAS: Unreal Engine"
             className={style.image}
-            id={style.SasImage}
+            id={style.DiscImage}
           />
         </section>
         <IoIosArrowDown onClick={() => prevImage()} className={style.arrow} />
