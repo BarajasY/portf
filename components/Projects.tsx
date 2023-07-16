@@ -11,12 +11,14 @@ const Projects = () => {
     "#F5F5F5",
     "#EEEEEE",
     "#E4E4E4",
+    "#DADADA"
   ]);
   const [CircleColor, setCircleColor] = useState([
     "#FAFAFA",
     "#F5F5F5",
     "#F0F0F0",
     "#E4E4E4",
+    "#DADADA"
   ]);
   const [BlockArrows, setBlockArrows] = useState(false);
   const [circle, animate] = useAnimate();
@@ -27,13 +29,13 @@ const Projects = () => {
 
   function sumProject(projectCount: number): number {
     let value = 0;
-    projectCount === 3 ? (value = 0) : (value = projectCount + 1);
+    projectCount === 4 ? (value = 0) : (value = projectCount + 1);
     return value;
   }
 
   function subProject(projectCount: number): number {
     let value = 0;
-    projectCount === 0 ? (value = 3) : (value = projectCount - 1);
+    projectCount === 0 ? (value = 4) : (value = projectCount - 1);
     return value;
   }
 
