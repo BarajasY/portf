@@ -9,7 +9,7 @@ const More = () => {
         You&apos;ve only seen <span>4</span> projects out of more than
         <span> 20</span>.
       </h1>
-      <h1>Check out my <Link href="https://github.com/BarajasY">Github</Link> to see what I&apos;m up to</h1>
+      <h1>Check out my <Link href="https://github.com/BarajasY" target="_blank">Github</Link> to see what I&apos;m up to</h1>
     </div>
   );
 };
